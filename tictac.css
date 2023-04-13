@@ -1,0 +1,125 @@
+
+body{
+    background-image: url("https://media.istockphoto.com/id/1092139474/photo/empty-green-casino-poker-table-cloth-with-spotlight.jpg?s=170667a&w=0&k=20&c=stV1o8MMY7lQVaX8N6bo_R6oWExvecmeGvsSTiHVPN8=");
+    background-position: center;
+    background-repeat: ;
+    background-size: cover;
+
+
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    color: goldenrod;
+    font-size: 30px;
+    background-image: url("https://images.unsplash.com/photo-1595502427603-3a6b5077ab78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFyb29ufGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    width: 300px;
+    padding-left: 115px;
+    border-radius: 2px;
+    border-style: none;
+    border-top: ridge;
+    border-right: ridge;
+    border-left: ridge;
+    border-width: 5px;
+    animation: sl 10s infinite;
+}
+@keyframes sl{
+    0%{
+        background-size: fill;
+        background-position: 0% 0%;
+    }
+
+    50%{
+        background-size: fill;
+        background-position: 100% 45%;
+    }
+    100%{background-size: fill;
+        background-position: 0% 0%;
+}
+}
+
+.plates{
+    width: 150px;
+    background-color: rgb(255, 235, 242);   
+    height: 120px;
+    color: goldenrod;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 120px;
+}
+#gr{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 60px;
+    padding-top: 20px;
+    row-gap: 20px;
+    width: 600px;
+    height: 460px;
+    background-image: url("https://media.istockphoto.com/photos/empty-green-casino-poker-table-cloth-with-spotlight-picture-id1092139474?k=20&m=1092139474&s=612x612&w=0&h=iWwvolq21sBzJZkqmigkdwNW6_cuQ1pQSNQmBE0a4V0=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 10%;
+    border-bottom: ridge;
+    border-bottom-color: goldenrod;
+    border-bottom-width: 5px;
+    border-right: ridge;
+    border-right-width: 5px;
+    border-right-color:goldenrod ;
+    
+    
+
+}
+#big_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://thumbs.dreamstime.com/b/poker-table-green-casino-blur-background-61016762.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+#bubox{
+    width:100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+    column-gap: 170px;
+}
+.button{
+    width: 200px;
+    height: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: goldenrod;
+    color: green;
+    font-size: 25px;
+    border-radius: 15px;
+    
+}
+.plates:hover{
+    cursor: pointer;
+}
+#restart{
+    width: 200px;
+    height: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: goldenrod;
+    color: green;
+    font-size: 25px;
+    border-radius: 15px;
+    margin-left: 170px;
+    margin-top: 200px;
+}
